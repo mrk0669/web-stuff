@@ -7,8 +7,8 @@
 body {
   min-height: 100vh;
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: #0f1220;
-  color: #eef0ff;
+  background: #ffd6e8;
+  color: #4a1030;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,7 @@ body {
   transform: translateX(-50%);
   width: 900px;
   height: 900px;
-  background: radial-gradient(circle, rgba(124,92,255,0.25) 0%, rgba(124,92,255,0) 60%);
+  background: radial-gradient(circle, rgba(255,92,168,0.25) 0%, rgba(255,92,168,0) 60%);
   z-index: 0;
   pointer-events: none;
 }
@@ -33,7 +33,7 @@ body {
   z-index: 1;
   text-align: center;
   max-width: 560px;
-  color: #c9accf;
+  color: #7a2f52;
   font-size: 0.9rem;
   font-style: italic;
   line-height: 1.5;
@@ -68,7 +68,7 @@ body {
 
 .subtitle {
   margin-top: 8px;
-  color: #a8adc9;
+  color: #7a2f52;
   font-size: 1.05rem;
 }
 
@@ -83,17 +83,17 @@ body {
 .pill {
   padding: 8px 20px;
   border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.15);
-  background: rgba(255,255,255,0.05);
-  color: #eef0ff;
+  border: 1px solid rgba(74,16,48,0.15);
+  background: rgba(255,255,255,0.5);
+  color: #4a1030;
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .pill:hover {
-  background: rgba(124,92,255,0.2);
-  border-color: rgba(124,92,255,0.5);
+  background: rgba(255,92,168,0.25);
+  border-color: rgba(255,92,168,0.6);
   transform: translateY(-2px);
 }
 
@@ -107,8 +107,8 @@ body {
 }
 
 .card {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.5);
+  border: 1px solid rgba(74,16,48,0.1);
   border-radius: 16px;
   padding: 28px 16px;
   display: flex;
@@ -116,15 +116,15 @@ body {
   align-items: center;
   gap: 8px;
   cursor: pointer;
-  color: #eef0ff;
+  color: #4a1030;
   transition: all 0.25s ease;
 }
 
 .card:hover {
   transform: translateY(-6px);
-  background: rgba(124,92,255,0.12);
-  border-color: rgba(124,92,255,0.5);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+  background: rgba(255,92,168,0.2);
+  border-color: rgba(255,92,168,0.5);
+  box-shadow: 0 12px 30px rgba(74,16,48,0.15);
 }
 
 .card-icon {
@@ -138,12 +138,12 @@ body {
 
 .card-desc {
   font-size: 0.85rem;
-  color: #a8adc9;
+  color: #7a2f52;
 }
 
 footer {
   margin-top: 60px;
-  color: #6c7096;
+  color: #a05379;
   font-size: 0.85rem;
   z-index: 1;
 }
@@ -153,7 +153,7 @@ footer {
   bottom: 30px;
   left: 50%;
   transform: translate(-50%, 20px);
-  background: #7c5cff;
+  background: #ff5ca8;
   color: #fff;
   padding: 14px 26px;
   border-radius: 12px;
