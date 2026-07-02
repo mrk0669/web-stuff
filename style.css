@@ -29,6 +29,17 @@ body {
   pointer-events: none;
 }
 
+.top-note {
+  z-index: 1;
+  text-align: center;
+  max-width: 560px;
+  color: #c9accf;
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
 .hero {
   text-align: center;
   z-index: 1;
